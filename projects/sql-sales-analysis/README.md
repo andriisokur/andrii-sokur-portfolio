@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 This project demonstrates SQL-based analysis of sales data to uncover key business insights such as revenue trends, customer behavior, and product performance.
-
+📊 Dataset: Simulated e-commerce sales data including orders, customers, and products.
 ---
 
 ## 🎯 Objectives
