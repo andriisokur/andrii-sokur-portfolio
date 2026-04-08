@@ -33,7 +33,10 @@ Experienced in Power BI, SQL, and business intelligence, with a strong focus on 
 
 👉 [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTZjZTQ0OTQtYmI5MC00NDY5LThkOWUtNzA2NzI5Njg0OGM1IiwidCI6ImNjYzc2NWRlLTA5OTAtNDlkNC1hODBmLTI5NGUyOGExZjkyMyIsImMiOjl9)
 
-📂 [Project Details](projects/README.md)
+### 🛒 SQL Sales Analysis
+SQL project analyzing sales performance, customer behavior, and product trends using real-world business scenarios.
+
+👉 [View Project](projects/sql-sales-analysis)
 
 ---
 
