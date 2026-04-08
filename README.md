@@ -27,7 +27,13 @@ Experienced in Power BI, SQL, and business intelligence, with a strong focus on 
 
 ## 📊 Projects
 
-Projects will include Power BI dashboards, SQL analysis, and business case studies.
+### 🔹 Retail / Humanitarian Dashboard (Power BI)
+
+📊 Interactive dashboard analyzing humanitarian operations across Ukraine.
+
+👉 [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTZjZTQ0OTQtYmI5MC00NDY5LThkOWUtNzA2NzI5Njg0OGM1IiwidCI6ImNjYzc2NWRlLTA5OTAtNDlkNC1hODBmLTI5NGUyOGExZjkyMyIsImMiOjl9)
+
+📂 [Project Details](projects/README.md)
 
 ---
 
