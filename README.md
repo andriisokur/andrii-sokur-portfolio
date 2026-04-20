@@ -40,6 +40,26 @@ SQL project analyzing sales performance, customer behavior, and product trends u
 
 ---
 
+## 🎓 Education
+
+### 🎓 Master's Degree
+National Aviation University (Ukraine)  
+Field: Maintenance and repair of aircraft and aircraft engines  
+Year: 2021  
+
+👉 [View Diploma](education/master-degree.jpg)
+
+---
+
+### 🎓 Bachelor's Degree
+National Aviation University (Ukraine)  
+Field: Aviation Engineering / Technical specialization  
+Year: 2020  
+
+👉 [View Diploma](education/bachelor-degree.jpg)
+
+---
+
 ## 📬 Contact
 
 - Email: a.sokurbox@gmail.com
