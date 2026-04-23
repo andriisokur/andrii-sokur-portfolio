@@ -44,7 +44,7 @@ GROUP BY customer_id
 ORDER BY total_spent DESC;
 ```
 
-Monthly revenue
+### Monthly revenue
 ```sql
 SELECT
     DATE_TRUNC('month', order_date) AS month,
@@ -54,7 +54,7 @@ GROUP BY month
 ORDER BY month;
 ```
 
-Revenue growth by month
+### Revenue growth by month
 ```sql
 WITH monthly_revenue AS (
     SELECT
@@ -82,7 +82,7 @@ FROM revenue_with_previous_month
 WHERE previous_month IS NOT NULL;
 ```
 
-Top products by quantity
+### Top products by quantity
 ```sql
 SELECT
     product_name,
@@ -92,7 +92,7 @@ GROUP BY product_name
 ORDER BY total_sold DESC;
 ```
 
-Top products by revenue
+### Top products by revenue
 ```sql
 SELECT
     product_name,
