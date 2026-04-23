@@ -43,7 +43,7 @@ GROUP BY month
 ORDER BY month;
 ```
 
-### 🔹 Revenue Growth
+### 🔹 Revenue Growth (% Month-over-Month)
 ```sql
 WITH monthly_revenue AS (
     SELECT DATE_TRUNC('month', order_date) AS month,
