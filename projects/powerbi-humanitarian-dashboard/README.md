@@ -1,42 +1,41 @@
-# 📊 Humanitarian Dashboard (Power BI)
+# Humanitarian Dashboard
 
-## 📌 Overview
-This dashboard was developed to monitor and analyze humanitarian activities across Ukraine, focusing on beneficiary reach, regional distribution, and monthly trends.
+## Overview
 
-It provides stakeholders with real-time insights into operations, enabling better decision-making and resource allocation.
+This Power BI dashboard was created to monitor humanitarian activities across Ukraine. It shows beneficiary reach, regional distribution, monthly trends, and basic demographic information.
 
----
+The dashboard is intended to support regular reporting and make it easier to understand where activities are taking place and how they change over time.
 
-## 🎯 Objectives
-- Track number of activities and beneficiaries
-- Analyze regional distribution across Ukraine
-- Monitor trends over time
-- Provide demographic insights (age, gender)
+## What I wanted to answer
 
----
+- How many activities and beneficiaries were reported?
+- Which regions had the highest activity?
+- How did the numbers change month by month?
+- What does the beneficiary split look like by age and gender?
+- Where might programme teams need a closer look at the data?
 
-## 🛠 Tools & Technologies
-- Power BI (Data Modelling, DAX)
-- Excel / Data Sources Integration
-- Data Cleaning & Transformation
+## Tools used
 
----
+- Power BI
+- DAX
+- Excel-based data sources
+- Data cleaning and transformation
 
-## 📊 Key Features
-- Interactive map of Ukraine with regional breakdown
-- Monthly trend analysis of activities
-- Beneficiary segmentation (age, gender)
-- KPI cards for high-level overview
-- Dynamic filters for user-driven analysis
+## Dashboard features
 
----
+- KPI cards for a quick overview
+- Regional map of Ukraine
+- Monthly activity trend
+- Beneficiary segmentation by age and gender
+- Filters for interactive review
 
-## 🚀 Live Dashboard
-👉 [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTZjZTQ0OTQtYmI5MC00NDY5LThkOWUtNzA2NzI5Njg0OGM1IiwidCI6ImNjYzc2NWRlLTA5OTAtNDlkNC1hODBmLTI5NGUyOGExZjkyMyIsImMiOjl9)
+## Live dashboard
 
----
+[View dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTZjZTQ0OTQtYmI5MC00NDY5LThkOWUtNzA2NzI5Njg0OGM1IiwidCI6ImNjYzc2NWRlLTA5OTAtNDlkNC1hODBmLTI5NGUyOGExZjkyMyIsImMiOjl9)
 
-## 💡 Impact
-- Supported monitoring across 25 regions
-- Improved visibility of operations for stakeholders
-- Enabled data-driven decision making
+## Main value
+
+- Gives a quick overview of humanitarian activity across regions.
+- Makes monthly changes easier to follow.
+- Helps stakeholders compare activity and beneficiary reach without going through raw files.
+g
