@@ -2,7 +2,7 @@
 
 Hi, I am Andrii Sokur. This portfolio brings together a few data analytics projects I have worked on, mainly focused on Power BI dashboards, SQL analysis, reporting, and turning operational data into useful summaries.
 
-My background includes several years of experience working with reports, performance tracking, and data quality checks. I am especially interested in roles where I can combine analytical thinking with clear business reporting.
+My background includes several years of experience working with reports, performance tracking, and data quality checks. I am especially interested in roles where I can combine analytical thinking with business reporting and corporate strategy.
 
 ## CV
 
