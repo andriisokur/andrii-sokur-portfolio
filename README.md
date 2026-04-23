@@ -1,82 +1,65 @@
-# 👋 Andrii Sokur – Data Analyst Portfolio
+# Andrii Sokur - Data Analyst Portfolio
 
-## 👨‍💻 About Me
+Hi, I am Andrii Sokur. This portfolio brings together a few data analytics projects I have worked on, mainly focused on Power BI dashboards, SQL analysis, reporting, and turning operational data into useful summaries.
 
-Data Analyst with 4+ years of experience working with operational and analytical data, focusing on reporting, performance tracking, and data-driven decision-making.
+My background includes several years of experience working with reports, performance tracking, and data quality checks. I am especially interested in roles where I can combine analytical thinking with clear business reporting.
 
-I specialize in Power BI and SQL, building dashboards and analyses that help stakeholders understand trends, monitor KPIs, and improve business outcomes.
+## CV
 
----
+[Download my CV](cv/Andrii_Sokur_CV.pdf)
 
-## 📄 Resume
+## Skills
 
-👉 [Download my CV](cv/Andrii_Sokur_CV.pdf)
+- Power BI, including dashboards, data modelling, and DAX
+- SQL for data analysis, aggregation, and trend reporting
+- Excel for reporting, data checks, and basic analysis
+- Data cleaning and validation
+- KPI reporting and performance monitoring
+- Communicating findings to non-technical stakeholders
 
----
+## Projects
 
-## 🛠️ Skills
+### Power BI: Humanitarian Dashboard
 
-- Power BI (DAX, Data Modelling)
-- SQL (Joins, Aggregations, Window Functions)
-- Python (Pandas – basic analysis)
-- Data Cleaning & Transformation
-- KPI Development & Reporting
-- Stakeholder Communication
+An interactive dashboard for monitoring humanitarian activities across Ukraine, including beneficiary reach, regional distribution, and activity trends.
 
----
+[View project](projects/powerbi-humanitarian-dashboard)
 
-## 📊 Projects
+### Power BI: Mobile Health Units Dashboard
 
-### 📌 Mobile Health Units Dashboard (Power BI)
-Dashboard analyzing Mobile Health Units (MHU) performance across Ukraine, including consultations, visits, regional coverage, and partner contributions.
+A Power BI dashboard focused on Mobile Health Unit performance, consultations, visits, partner activity, and regional coverage.
 
-👉 [View Project](projects/powerbi-mobile-health-dashboard)
+[View project](projects/powerbi-mobile-health-dashboard)
 
----
+### Power BI: Home-Based Care Dashboard
 
-### 📌 Home-Based Care Dashboard (Power BI)
-Dashboard focused on Home-Based Care (HBC) program performance, covering beneficiaries, regional distribution, and partner activity.
+A dashboard for tracking Home-Based Care programme activity, beneficiary coverage, regional differences, and partner contributions.
 
-👉 [View Project](projects/powerbi-home-based-care-dashboard)
+[View project](projects/powerbi-home-based-care-dashboard)
 
----
+### SQL: Sales Analysis
 
-### 📌 Humanitarian Dashboard (Power BI)
-Interactive dashboard analyzing humanitarian operations, beneficiary reach, and regional distribution across Ukraine.
+A small SQL project showing how I would explore sales data, including customer revenue, monthly trends, product performance, and month-over-month growth.
 
-👉 [View Project](projects/powerbi-humanitarian-dashboard)
+[View project](projects/sql-sales-analysis)
 
----
+## Education
 
-### 📌 Sales Analysis (SQL)
-SQL-based analysis of sales data, including customer behavior, revenue trends, product performance, and month-over-month growth.
+Master's Degree, National Aviation University, Ukraine  
+Field: Maintenance and repair of aircraft and aircraft engines  
+Year: 2021
 
-👉 [View Project](projects/sql-sales-analysis)
+[View diploma](education/master-degree.jpg)
 
----
+Bachelor's Degree, National Aviation University, Ukraine  
+Field: Aviation Engineering / Technical specialisation  
+Year: 2020
 
-## 🎓 Education
+[View diploma](education/bachelor-degree.jpg)
 
-### 🎓 Master's Degree  
-National Aviation University (Ukraine)  
-Field: Maintenance and Repair of Aircraft and Aircraft Engines  
-Year: 2021  
+## Contact
 
-👉 [View Diploma](education/master-degree.jpg)
-
----
-
-### 🎓 Bachelor's Degree  
-National Aviation University (Ukraine)  
-Field: Aviation Engineering  
-Year: 2020  
-
-👉 [View Diploma](education/bachelor-degree.jpg)
-
----
-
-## 📬 Contact
-
-- Email: a.sokurbox@gmail.com  
-- Phone: +353 85 756 3449  
+- Email: a.sokurbox@gmail.com
+- Phone: +353 85 756 3449
 - LinkedIn: https://www.linkedin.com/in/andrii-sokur-2561771b7/
+
