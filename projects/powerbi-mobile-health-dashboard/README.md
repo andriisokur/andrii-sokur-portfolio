@@ -48,7 +48,7 @@ Due to data sensitivity, only dashboard screenshots are provided.
 ## 📸 Dashboard Preview
 
 ### Overview
-![Overview](images/mhu-dashboard-overview.png)
+![Overview](images/mhu-dashboard-overview.png.png)
 
 ### Partner Analysis
 ![Partners](images/mhu-partner-analysis.png.png)
