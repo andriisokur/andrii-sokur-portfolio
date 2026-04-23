@@ -41,3 +41,16 @@ It helps stakeholders track program performance and make data-driven decisions.
 
 ## 🔒 Note
 Due to data sensitivity, only dashboard screenshots are provided.
+
+---
+
+## 📸 Dashboard Preview
+
+### Overview
+![Overview](images/hbc-dashboard-overview.png)
+
+### Trends Over Time
+![Trends](images/hbc-trend-analysis.png)
+
+### Partner Analysis
+![Partners](images/hbc-partner-analysis.png)
