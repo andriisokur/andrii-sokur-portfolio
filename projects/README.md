@@ -1,44 +1,34 @@
-# 📂 Projects Portfolio
+# Projects
 
-This section contains selected data analytics projects demonstrating my experience in:
+This folder contains selected data analytics projects. I have kept the structure simple so each project is easy to open and understand.
 
-- Data Analysis (SQL, Python)
-- Data Visualization (Power BI)
-- Business Intelligence & Reporting
-- Data-driven decision making
+Most projects include a short README explaining the purpose of the work, the tools used, and the main analysis or dashboard features. For projects that use sensitive or private data, I only include screenshots or a public dashboard link.
 
----
+## Power BI projects
 
-## 📊 Power BI Projects
+### Mobile Health Units Dashboard
 
-### 📌 Mobile Health Units Dashboard (Ukraine)
-Dashboard analyzing Mobile Health Units (MHU) performance: consultations, visits, regional coverage, and partner contributions.
+Dashboard for reviewing Mobile Health Unit performance across Ukraine, including consultations, visits, regional coverage, and partner activity.
 
-👉 [View Project](./powerbi-mobile-health-dashboard)
+[Open project](./powerbi-mobile-health-dashboard)
 
----
+### Humanitarian Dashboard
 
-### 📌 Humanitarian Dashboard (Ukraine)
-Interactive dashboard analyzing humanitarian operations, beneficiary reach, and regional distribution.
+Dashboard for monitoring humanitarian activities, beneficiary reach, regional distribution, and monthly trends.
 
-👉 [View Project](./powerbi-humanitarian-dashboard)
+[Open project](./powerbi-humanitarian-dashboard)
 
----
+### Home-Based Care Dashboard
 
-### 📌 Home-Based Care Dashboard (Ukraine)
-Dashboard focused on Home-Based Care (HBC) program performance, including beneficiary coverage, regional insights, and partner contributions.
+Dashboard for tracking Home-Based Care programme activity, beneficiary coverage, partner support, and regional differences.
 
-👉 [View Project](./powerbi-home-based-care-dashboard)
+[Open project](./powerbi-home-based-care-dashboard)
 
----
+## SQL projects
 
-## 🧮 SQL Projects
+### Sales Analysis
 
-### 📌 Sales Analysis (SQL)
-SQL-based analysis of sales data, including customer behavior, revenue trends, product performance, and month-over-month growth analysis.
+SQL analysis of sales data, including revenue trends, top customers, product performance, and month-over-month growth.
 
-👉 [View Project](./sql-sales-analysis)
+[Open project](./sql-sales-analysis)
 
----
-
-## 🚀 More projects coming soon...
