@@ -2,9 +2,9 @@
 
 ## 👨‍💻 About Me
 
-Data Analyst with 4+ years of experience delivering data-driven solutions across operations, reporting, and performance analytics.
+Data Analyst with 4+ years of experience working with operational and analytical data, focusing on reporting, performance tracking, and data-driven decision-making.
 
-Experienced in Power BI, SQL, and business intelligence, with a strong focus on transforming complex data into actionable insights that support decision-making.
+I specialize in Power BI and SQL, building dashboards and analyses that help stakeholders understand trends, monitor KPIs, and improve business outcomes.
 
 ---
 
@@ -17,9 +17,9 @@ Experienced in Power BI, SQL, and business intelligence, with a strong focus on 
 ## 🛠️ Skills
 
 - Power BI (DAX, Data Modelling)
-- SQL (Advanced Queries)
-- Python (Pandas)
-- Data Validation & ETL
+- SQL (Joins, Aggregations, Window Functions)
+- Python (Pandas – basic analysis)
+- Data Cleaning & Transformation
 - KPI Development & Reporting
 - Stakeholder Communication
 
@@ -27,14 +27,29 @@ Experienced in Power BI, SQL, and business intelligence, with a strong focus on 
 
 ## 📊 Projects
 
-### 🔹 Retail / Humanitarian Dashboard (Power BI)
+### 📌 Mobile Health Units Dashboard (Power BI)
+Dashboard analyzing Mobile Health Units (MHU) performance across Ukraine, including consultations, visits, regional coverage, and partner contributions.
 
-📊 Interactive dashboard analyzing humanitarian operations across Ukraine.
+👉 [View Project](projects/powerbi-mobile-health-dashboard)
 
-👉 [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTZjZTQ0OTQtYmI5MC00NDY5LThkOWUtNzA2NzI5Njg0OGM1IiwidCI6ImNjYzc2NWRlLTA5OTAtNDlkNC1hODBmLTI5NGUyOGExZjkyMyIsImMiOjl9)
+---
 
-### 🛒 SQL Sales Analysis
-SQL project analyzing sales performance, customer behavior, and product trends using real-world business scenarios.
+### 📌 Home-Based Care Dashboard (Power BI)
+Dashboard focused on Home-Based Care (HBC) program performance, covering beneficiaries, regional distribution, and partner activity.
+
+👉 [View Project](projects/powerbi-home-based-care-dashboard)
+
+---
+
+### 📌 Humanitarian Dashboard (Power BI)
+Interactive dashboard analyzing humanitarian operations, beneficiary reach, and regional distribution across Ukraine.
+
+👉 [View Project](projects/powerbi-humanitarian-dashboard)
+
+---
+
+### 📌 Sales Analysis (SQL)
+SQL-based analysis of sales data, including customer behavior, revenue trends, product performance, and month-over-month growth.
 
 👉 [View Project](projects/sql-sales-analysis)
 
@@ -42,18 +57,18 @@ SQL project analyzing sales performance, customer behavior, and product trends u
 
 ## 🎓 Education
 
-### 🎓 Master's Degree
+### 🎓 Master's Degree  
 National Aviation University (Ukraine)  
-Field: Maintenance and repair of aircraft and aircraft engines  
+Field: Maintenance and Repair of Aircraft and Aircraft Engines  
 Year: 2021  
 
 👉 [View Diploma](education/master-degree.jpg)
 
 ---
 
-### 🎓 Bachelor's Degree
+### 🎓 Bachelor's Degree  
 National Aviation University (Ukraine)  
-Field: Aviation Engineering / Technical specialization  
+Field: Aviation Engineering  
 Year: 2020  
 
 👉 [View Diploma](education/bachelor-degree.jpg)
@@ -62,6 +77,6 @@ Year: 2020
 
 ## 📬 Contact
 
-- Email: a.sokurbox@gmail.com
-- Phone: +353 85 756 3449
+- Email: a.sokurbox@gmail.com  
+- Phone: +353 85 756 3449  
 - LinkedIn: https://www.linkedin.com/in/andrii-sokur-2561771b7/
