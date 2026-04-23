@@ -1,83 +1,111 @@
-# 📊 SQL Sales Analysis
+# SQL Sales Analysis
 
-## 📌 Overview
-This project demonstrates SQL-based analysis of sales data to uncover key business insights such as revenue trends, customer behavior, and product performance.
+## Overview
 
-The goal is to transform raw transactional data into meaningful business insights.
+This is a small SQL project focused on analysing sales data.
 
----
+The goal was to practise common business analysis tasks using SQL: checking revenue, identifying top customers, reviewing product performance, and looking at monthly trends.
 
-## 🎯 Objectives
-- Identify top customers by revenue
-- Analyze monthly sales trends
-- Track revenue growth over time
-- Determine best-selling products
-- Understand overall business performance
+I kept this project simple on purpose. I wanted the queries to be easy to read and close to the type of analysis I would expect in a junior or mid-level data analyst role.
 
----
+## Business questions
 
-## 🛠 Tools
+- Which customers generated the most revenue?
+- Which products sold the most units?
+- Which products generated the most revenue?
+- How did revenue change month by month?
+- What was the month-over-month revenue growth?
+
+## Tools used
+
 - SQL
-- Relational Databases
-- Aggregate Functions
-- Basic Window Functions
+- Aggregations
+- Common table expressions
+- Basic window functions
 
----
+## Example table
 
-## 📊 Key Queries
+The queries are based on a simple `orders` table with fields like:
 
-### 🔹 Top Customers
+- `order_date`
+- `customer_id`
+- `product_name`
+- `quantity`
+- `amount`
+
+## Example queries
+
+### Top customers by revenue
+
 ```sql
-SELECT customer_id, SUM(amount) AS total_spent
+SELECT
+    customer_id,
+    SUM(amount) AS total_spent
 FROM orders
 GROUP BY customer_id
 ORDER BY total_spent DESC;
 ```
 
-🔹 Monthly Revenue
+Monthly revenue
 ```sql
-SELECT DATE_TRUNC('month', order_date) AS month,
-       SUM(amount) AS revenue
+SELECT
+    DATE_TRUNC('month', order_date) AS month,
+    SUM(amount) AS revenue
 FROM orders
 GROUP BY month
 ORDER BY month;
 ```
 
-### 🔹 Revenue Growth (% Month-over-Month)
+Revenue growth by month
 ```sql
 WITH monthly_revenue AS (
-    SELECT DATE_TRUNC('month', order_date) AS month,
-           SUM(amount) AS revenue
+    SELECT
+        DATE_TRUNC('month', order_date) AS month,
+        SUM(amount) AS revenue
     FROM orders
     GROUP BY month
+),
+revenue_with_previous_month AS (
+    SELECT
+        month,
+        revenue,
+        LAG(revenue) OVER (ORDER BY month) AS previous_month
+    FROM monthly_revenue
 )
-SELECT month,
-       revenue,
-       LAG(revenue) OVER (ORDER BY month) AS previous_month,
-       ROUND(
-           (revenue - LAG(revenue) OVER (ORDER BY month)) 
-           * 100.0 / LAG(revenue) OVER (ORDER BY month), 
-           2
-       ) AS growth_percentage
-FROM monthly_revenue;
+SELECT
+    month,
+    revenue,
+    previous_month,
+    ROUND(
+        (revenue - previous_month) * 100.0 / previous_month,
+        2
+    ) AS growth_percentage
+FROM revenue_with_previous_month
+WHERE previous_month IS NOT NULL;
 ```
 
-🔹 Top Products
+Top products by quantity
 ```sql
-SELECT product_name,
-       SUM(quantity) AS total_sold
+SELECT
+    product_name,
+    SUM(quantity) AS total_sold
 FROM orders
 GROUP BY product_name
 ORDER BY total_sold DESC;
 ```
 
-🔹 Top Products by Revenue
+Top products by revenue
 ```sql
-SELECT product_name,
-       SUM(amount) AS total_revenue
+SELECT
+    product_name,
+    SUM(amount) AS total_revenue
 FROM orders
 GROUP BY product_name
 ORDER BY total_revenue DESC;
 ```
 
+## What this project shows
 
+This project shows how I use SQL to answer basic business questions, such as finding top customers, checking product performance, and reviewing revenue trends.
+
+Before using this type of analysis in a real report, I would also check the data for missing values, duplicates, and inconsistent product or customer names.
