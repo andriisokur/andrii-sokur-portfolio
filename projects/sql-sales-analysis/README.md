@@ -43,7 +43,7 @@ GROUP BY month
 ORDER BY month;
 ```
 
-🔹 Revenue Growth
+### 🔹 Revenue Growth
 ```sql
 WITH monthly_revenue AS (
     SELECT DATE_TRUNC('month', order_date) AS month,
@@ -53,7 +53,12 @@ WITH monthly_revenue AS (
 )
 SELECT month,
        revenue,
-       LAG(revenue) OVER (ORDER BY month) AS previous_month
+       LAG(revenue) OVER (ORDER BY month) AS previous_month,
+       ROUND(
+           (revenue - LAG(revenue) OVER (ORDER BY month)) 
+           * 100.0 / LAG(revenue) OVER (ORDER BY month), 
+           2
+       ) AS growth_percentage
 FROM monthly_revenue;
 ```
 
