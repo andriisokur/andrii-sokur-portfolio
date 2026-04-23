@@ -6,8 +6,6 @@ This is a small SQL project focused on analysing sales data.
 
 The goal was to practise common business analysis tasks using SQL: checking revenue, identifying top customers, reviewing product performance, and looking at monthly trends.
 
-I kept this project simple on purpose. I wanted the queries to be easy to read and close to the type of analysis I would expect in a junior or mid-level data analyst role.
-
 ## Business questions
 
 - Which customers generated the most revenue?
