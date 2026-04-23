@@ -32,7 +32,7 @@ SELECT customer_id, SUM(amount) AS total_spent
 FROM orders
 GROUP BY customer_id
 ORDER BY total_spent DESC;
----
+```
 
 🔹 Monthly Revenue
 ```sql
@@ -41,7 +41,7 @@ SELECT DATE_TRUNC('month', order_date) AS month,
 FROM orders
 GROUP BY month
 ORDER BY month;
----
+```
 
 🔹 Revenue Growth
 ```sql
@@ -55,7 +55,7 @@ SELECT month,
        revenue,
        LAG(revenue) OVER (ORDER BY month) AS previous_month
 FROM monthly_revenue;
----
+```
 
 🔹 Top Products
 ```sql
@@ -64,7 +64,7 @@ SELECT product_name,
 FROM orders
 GROUP BY product_name
 ORDER BY total_sold DESC;
----
+```
 
 🔹 Top Products by Revenue
 ```sql
@@ -73,6 +73,6 @@ SELECT product_name,
 FROM orders
 GROUP BY product_name
 ORDER BY total_revenue DESC;
----
+```
 
 
