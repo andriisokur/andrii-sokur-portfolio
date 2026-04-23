@@ -2,40 +2,45 @@
 
 ## Overview
 
-This Power BI dashboard was created to monitor humanitarian activities across Ukraine. It shows beneficiary reach, regional distribution, monthly trends, and basic demographic information.
+This Power BI dashboard was created to support management and donors with a clear overview of humanitarian needs across Ukraine.
 
-The dashboard is intended to support regular reporting and make it easier to understand where activities are taking place and how they change over time.
+The dashboard shows where support is needed most by region and city. It also includes information about internally displaced people, helping users understand how needs are distributed across different parts of the country.
 
-## What I wanted to answer
+The report covers data for one calendar year.
 
-- How many activities and beneficiaries were reported?
-- Which regions had the highest activity?
-- How did the numbers change month by month?
-- What does the beneficiary split look like by age and gender?
-- Where might programme teams need a closer look at the data?
+## Purpose
 
-## Tools used
+I built this dashboard to make operational data easier to review and to give management and donors a simple way to monitor the situation across all regions.
+
+Instead of checking separate files or reports, users can open one dashboard and quickly see regional differences, beneficiary numbers, and key trends.
+
+## Data sources and tools
 
 - Power BI
-- DAX
-- Excel-based data sources
+- KoBoToolbox forms for data collection
+- SharePoint
+- OneDrive
 - Data cleaning and transformation
+- DAX
 
-## Dashboard features
+## What the dashboard shows
 
-- KPI cards for a quick overview
-- Regional map of Ukraine
-- Monthly activity trend
-- Beneficiary segmentation by age and gender
-- Filters for interactive review
+- Humanitarian needs by region
+- Number of internally displaced people by oblast and city
+- Regional distribution of beneficiaries
+- Monthly activity trends
+- Key indicators for management reporting
+- Views that can be used by donors to understand where support is most needed
+
+## Main value
+
+- Helps management monitor all regions in one place.
+- Gives donors a clearer picture of needs across the country.
+- Makes it easier to compare regions and cities.
+- Reduces the need to work with multiple separate files.
+- Supports better planning and reporting during the year.
 
 ## Live dashboard
 
 [View dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTZjZTQ0OTQtYmI5MC00NDY5LThkOWUtNzA2NzI5Njg0OGM1IiwidCI6ImNjYzc2NWRlLTA5OTAtNDlkNC1hODBmLTI5NGUyOGExZjkyMyIsImMiOjl9)
 
-## Main value
-
-- Gives a quick overview of humanitarian activity across regions.
-- Makes monthly changes easier to follow.
-- Helps stakeholders compare activity and beneficiary reach without going through raw files.
-g
